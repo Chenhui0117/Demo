@@ -1,3 +1,5 @@
+package geekAlgorithm;
+
 /**
  * @author Huihui
  * @date 2021/12/17 11:05
@@ -5,6 +7,7 @@
  */
 public class MergeSort {
 
+    //博客上的合并方法，关键点在于下标的使用
     public static <T extends Comparable<? super T>> void mergeSort(T[] arr) {
         T[] tmpArray = (T[]) new Comparable[arr.length];
         mergeSort(arr, tmpArray, 0, arr.length - 1);

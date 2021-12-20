@@ -1,6 +1,4 @@
-import com.sun.org.apache.bcel.internal.generic.SWAP;
-
-import java.util.ArrayList;
+package geekAlgorithm;
 
 /**
  * @author Huihui
@@ -227,14 +225,5 @@ public class Geek_sort {
         return i;
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{11,8,3,9,7,1,2,5,55,89,24,0};
-      //  partition(arr, 0, arr.length-1);
-       // SWAP
-       arr =  quick_sort(arr,arr.length);
-        for (int a :
-                arr) {
-            System.out.println(a);
-        }
-    }
+
 }

@@ -1,3 +1,5 @@
+package geekAlgorithm;
+
 import java.util.HashMap;
 
 /**
